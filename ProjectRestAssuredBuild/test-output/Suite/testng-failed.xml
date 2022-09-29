@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="RestAssuredBatchExecution(failed)">
+    <classes>
+      <class name="testcaseBDD.AddProjectwithoutTeamSizeUsingBDD">
+        <methods>
+          <include name="AddProjectwithoutTeamsize"/>
+        </methods>
+      </class> <!-- testcaseBDD.AddProjectwithoutTeamSizeUsingBDD -->
+      <class name="testcaseBDD.GetProjectWithoutPathVariable">
+        <methods>
+          <include name="geProjectWithoutPathVariable"/>
+        </methods>
+      </class> <!-- testcaseBDD.GetProjectWithoutPathVariable -->
+      <class name="testcaseBDD.EnterSpecialCharacterForSatusCodeCheckTest">
+        <methods>
+          <include name="SpecialCharacterForStatusCode"/>
+        </methods>
+      </class> <!-- testcaseBDD.EnterSpecialCharacterForSatusCodeCheckTest -->
+      <class name="testcaseBDD.AddProjectWithOutContentType">
+        <methods>
+          <include name="AddProjectWithOutContentTypeUsingBDD"/>
+        </methods>
+      </class> <!-- testcaseBDD.AddProjectWithOutContentType -->
+      <class name="testcaseBDD.AddProjectWithTeamWithoutCreating">
+        <methods>
+          <include name="AddProjectwithoutCreatingUsingBDD"/>
+        </methods>
+      </class> <!-- testcaseBDD.AddProjectWithTeamWithoutCreating -->
+      <class name="testcaseBDD.NumberProjectNameCheckProjectTest">
+        <methods>
+          <include name="EnterNumberToProjectNameAndCheck"/>
+        </methods>
+      </class> <!-- testcaseBDD.NumberProjectNameCheckProjectTest -->
+      <class name="testcaseBDD.SpecialCharacterCreateByCheckProjectDetailsTest">
+        <methods>
+          <include name="EnterSpecialcharacterCheck"/>
+        </methods>
+      </class> <!-- testcaseBDD.SpecialCharacterCreateByCheckProjectDetailsTest -->
+      <class name="testcaseBDD.CreateProjectByUsingjsonFile">
+        <methods>
+          <include name="CreateProjectUsingFile"/>
+        </methods>
+      </class> <!-- testcaseBDD.CreateProjectByUsingjsonFile -->
+      <class name="testcaseBDD.ChangeProjectUsingFile">
+        <methods>
+          <include name="ChangeProjectUsingFileInPUTmethod"/>
+        </methods>
+      </class> <!-- testcaseBDD.ChangeProjectUsingFile -->
+    </classes>
+  </test> <!-- RestAssuredBatchExecution(failed) -->
+</suite> <!-- Failed suite [Suite] -->

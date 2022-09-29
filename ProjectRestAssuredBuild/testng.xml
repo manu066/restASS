@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="RestAssuredBatchExecution">
+    <classes>
+      <class name="testcaseBDD.AddProject"/>
+      <class name="testcaseBDD.AddProjectWithOutContentType"/>
+      <class name="testcaseBDD.AddProjectWithTeamWithoutCreating"/>
+      <class name="testcaseBDD.AddProjectWithOutSatus"/>
+      <class name="testcaseBDD.GetProjectWithOutresource"/>
+      <class name="testcaseBDD.ModifyProjectWithOuturl"/>
+      <class name="testcaseBDD.CreateProjectByUsingjsonFile"/>
+      <class name="testcaseBDD.GetProjectWithoutUriAndPort"/>
+      <class name="testcaseBDD.NumberProjectNameCheckProjectTest"/>
+      <class name="testcaseBDD.ChangeProjectUsingFile"/>
+      <class name="testcaseBDD.NumbersCreateByCheckProjectDetailsTest"/>
+      <class name="testcaseBDD.ModifyCreatedByCheckProjectDetailsChange"/>
+      <class name="testcaseBDD.GetProjectWithoutPathVariable"/>
+      <class name="testcaseBDD.SpecialCharacterCreateByCheckProjectDetailsTest"/>
+      <class name="testcaseBDD.AddProjectwithoutTeamSizeUsingBDD"/>
+      <class name="testcaseBDD.SpecialCharacterProjectNameCheckProjectDetailsTest"/>
+      <class name="testcaseBDD.EnterSpecialCharacterForSatusCodeCheckTest"/>
+    </classes>
+  </test> <!-- RestAssuredBatchExecution -->
+</suite> <!-- Suite -->

@@ -33,7 +33,7 @@ public class addProjectRandomNumber {
 				  ValidatableResponse valResp = response.then();
 				valResp.assertThat().contentType(ContentType.JSON);
 				valResp.assertThat().statusCode(201);
-				valResp.log().all();
+			   valResp.log().all();
 		
 	}
 
